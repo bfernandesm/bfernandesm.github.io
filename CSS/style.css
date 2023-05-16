@@ -1,0 +1,46 @@
+*{
+  background-color: #3d155f;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+footer{
+  .footer-container{
+    max-width: 1300px;
+    margin: 0 auto;
+    border-top: 1px solid #ccf381;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer-sociais{
+      display: flex;
+      .footer-item{
+        padding: 0 7px;
+        .fa-brands {
+          font-size: 25px;
+          color: #ccf381;
+        }
+      }
+
+      .footer-item:hover{
+        .fa-brands{
+          color: #F9F9F9;
+        }
+      }
+    }
+    .footer-power-by{
+      color: #ccf381;
+      font-size: 14px;
+      .power-by-link{
+        color: #ccf381;
+      }
+
+      .power-by-link:hover{
+        color: #F9F9F9;
+      }
+    }
+  }
+}
+  
+
